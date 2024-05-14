@@ -1,6 +1,11 @@
 export const PROFILE = {
   name: "Vitthal Sawant",
-  title: "Electronics Engineer",
+  title: [
+    "Electronics Engineer",
+    "Web Developer",
+    "Instructor",
+    "Data Scientist",
+  ],
   location: "Banda, Maharashtra, India 416511",
   email: "vitthal.sawant19@gmail.com",
   phone: "+91 9421265218",
@@ -87,10 +92,10 @@ export const PROJECTS = [
       "Developing and fine-tuning machine learning algorithms for accurate delivery time predictions.",
       "Utilizing data-driven solutions to assess and enhance customer query resolution processes.",
     ],
-    links: {
-      website: "https://example.com/predictive-model",
-      github: "https://github.com/example/predictive-model",
-    },
+    // links: {
+    //   website: "https://example.com/predictive-model",
+    //   github: "https://github.com/example/predictive-model",
+    // },
     technologies: [
       "python",
       "Machine Learning",
@@ -106,8 +111,8 @@ export const PROJECTS = [
       "Implemented user authentication and authorization.",
     ],
     links: {
-      website: "https://example.com/url-shortener",
-      github: "https://github.com/example/url-shortener",
+      website: "https://short-this-url.onrender.com",
+      github: "https://github.com/vickysawant19/url-shortner",
     },
     technologies: [
       "React",
@@ -118,14 +123,15 @@ export const PROJECTS = [
     ],
   },
   {
-    name: "Notes App for Company",
+    name: "Notes App for Company D&D",
     details: [
       "Built a full-stack application for managing notes within a company.",
       "Utilized React, Node.js, Express.js, and MongoDB.",
       "Implemented user authentication and authorization with different access levels (admin, manager, employee).",
     ],
     links: {
-      website: "https://example.com/notes-app",
+      website:
+        "https://github.com/vickysawant19/FullStack-MERN-Project-TechNotes",
       github: "https://github.com/example/notes-app",
     },
     technologies: [
@@ -144,8 +150,8 @@ export const PROJECTS = [
       "Utilized Appwrite's database, storage, and other services.",
     ],
     links: {
-      website: "https://example.com/appwrite-todo",
-      github: "https://github.com/example/appwrite-todo",
+      website: "https://appwrite-todo-wheat.vercel.app/",
+      github: "https://github.com/vickysawant19/appwrite-todo",
     },
     technologies: ["Appwrite", "Authentication", "React.js"],
   },

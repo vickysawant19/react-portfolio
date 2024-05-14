@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { PROFILE } from "../constants";
 import vitthal from "../assets/vitthal.png";
 import { motion } from "framer-motion";
+import WordsScroll from "./WordsScroll";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -13,6 +14,7 @@ const container = (delay) => ({
 });
 
 const Hero = () => {
+  const words = ["developer", "teacher", "engineer"];
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-36">
       <div className="flex flex-wrap">
@@ -22,7 +24,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl "
             >
               {PROFILE.name}
             </motion.h1>
@@ -30,9 +32,9 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent h-16"
             >
-              {PROFILE.title}
+              <WordsScroll words={PROFILE.title} />
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -55,7 +57,6 @@ const Hero = () => {
               src={vitthal}
               alt="vitthal sawant"
             />
-            <div className="w-full h-20 bg-gradient-to-b from-transparent to-black bg-blend-multiply absolute bottom-0 "></div>
           </div>
         </div>
       </div>
