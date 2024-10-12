@@ -130,9 +130,8 @@ export const PROJECTS = [
       "Implemented user authentication and authorization with different access levels (admin, manager, employee).",
     ],
     links: {
-      website:
-        "https://github.com/vickysawant19/FullStack-MERN-Project-TechNotes",
-      github: "https://github.com/example/notes-app",
+      // website:"",
+      github: "https://github.com/vickysawant19/FullStack-MERN-Project-TechNotes",
     },
     technologies: [
       "React",
