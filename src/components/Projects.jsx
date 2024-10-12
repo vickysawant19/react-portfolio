@@ -37,15 +37,17 @@ const Projects = () => {
               <h4 className="mb-4 text-sm text-neutral-400 ">
                 {project.details}
               </h4>
-              <div className="flex mb-2">
-                {project.technologies.map((tech, index) => (
-                  <div
-                    key={index}
-                    className="mb-2 flex mr-2 rounded text-purple-400 text-sm bg-neutral-800 py-1 px-2"
-                  >
-                    {tech}
-                  </div>
-                ))}
+              <div className="relative flex mb-2 overflow-hidden">
+                <div className="flex overflow-x-auto scrollbar-hidden">
+                  {project.technologies.map((tech, index) => (
+                    <div
+                      key={index}
+                      className="mb-2 flex mr-2 rounded text-purple-400 text-sm bg-neutral-800 py-1 px-2"
+                    >
+                      {tech}
+                    </div>
+                  ))}
+                </div>
               </div>
               <div className="flex">
                 {project.links &&

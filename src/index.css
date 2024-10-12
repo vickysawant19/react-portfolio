@@ -7,3 +7,12 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+
+  display: none; 
+}
