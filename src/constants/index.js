@@ -1,26 +1,16 @@
 export const PROFILE = {
   name: "Vitthal Sawant",
-  title: [
-    "Electronics Engineer",
-    "Web Developer",
-    "Instructor",
-    "Data Scientist",
-  ],
+  title: ["Electronics Engineer", "Instructor", "Web Developer"],
   location: "Banda, Maharashtra, India 416511",
   email: "vitthal.sawant19@gmail.com",
   phone: "+91 9421265218",
-  summary: `Dedicated Electronics Engineer with 5 years of experience as an Electronics Instructor, complemented by a
-  comprehensive skill set in programming. Currently pursuing a Data Scientist course, expanding expertise in
-  Python, SQL, and Machine Learning. Proficient in React.js, PHP, Embedded C, JavaScript, and Next.js.
-  Successfully completed a Capstone Project in ML for E-commerce, demonstrating the ability to predict product
-  delivery times and resolve customer queries effectively using data analysis.`,
+  summary: `Electronics Enginner with a strong background in teaching electronics, embedded programming and web Technolgies. Recently completed a Data Science course, gaining expertise in Python, SQL, and Machine Learning. 
+  Proficient in full-stack development using React.js, Node.js, Express.js, MongoDB, JavaScript, and Next.js. Successfully built scalable web applications, including a mock test platform and a real-time chat app. Passionate about leveraging modern web technologies to create impactful, user-focused solutions.`,
 };
 
-export const ABOUT = `I am a dedicated Electronics Engineer with a well-rounded skill set that combines my expertise in electronics engineering with proficiency in programming languages and data science technologies. With 5 years of experience as an Electronics Instructor, I have honed my ability to communicate complex concepts effectively and mentor students in problem-solving and programming.
-
-Currently, I am pursuing a Data Scientist course, expanding my knowledge in Python, SQL, and Machine Learning. I am proficient in React.js, PHP, Embedded C, JavaScript, and Next.js, showcasing my versatility in both front-end and back-end development. One of my notable achievements is successfully completing a Capstone Project in ML for E-commerce, where I demonstrated the ability to predict product delivery times and resolve customer queries using data analysis techniques. This project highlights my hands-on experience in collecting and preprocessing large-scale data sets, developing and fine-tuning machine learning algorithms, and utilizing data-driven solutions to enhance customer service.
-
-With a strong foundation in electronics engineering and a passion for continuous learning, I am well-equipped to tackle complex problems and deliver innovative solutions. My diverse skill set, combined with effective communication, teamwork, adaptability, and time management abilities, make me a valuable asset to any organization.`;
+export const ABOUT = `I am a dedicated Electronics Engineer with a strong background in teaching. With 6 years of experience in electronics and programming, I've transitioned to web development and completed a Data Science course, expanding my expertise in Python, SQL, and Machine Learning.
+Proficient in front-end and back-end development using React.js, Node.js, Express.js, and MongoDB, I have successfully built web applications like a mock test platform and a real-time chat app. One of my notable achievements is completing a Capstone Project in ML for E-commerce, demonstrating the ability to predict product delivery times and optimize customer service using data analysis.
+My diverse skill set, combined with effective communication and leadership abilities, positions me to deliver innovative solutions and drive technological growth within any organization.`;
 
 export const EXPERIENCE = [
   {
@@ -28,18 +18,17 @@ export const EXPERIENCE = [
     role: "Electronics Instructor",
     duration: "2018 - Present",
     responsibilities: [
-      "Taught electronic engineering concepts to students.",
-      "Mentored and guided students in programming projects.",
-      "Delivered comprehensive instruction in electronics engineering concepts.",
-      "Mentored and guided students in problem-solving and programming.",
-      "Developed strong communication and presentation skills.",
-      "Enhanced leadership abilities through classroom management.",
+      "Taught electronic engineering and programming concepts to students.",
+      "Mentored students in embedded programming projects and problem-solving.",
+      "Delivered instruction on microcontroller programming and circuit design.",
+      "Developed strong communication and leadership skills through classroom management.",
+      "Guided students on project development and technical skills improvement.",
     ],
     technology: [
-      "Microcontroller",
-      "Programming",
-      "Repairing",
+      "Microcontroller Programming",
       "Circuit Design",
+      "Embedded Systems",
+      "Programming",
     ],
   },
 ];
@@ -50,6 +39,12 @@ export const EDUCATION = [
     degree: "Bachelor's Degree",
     duration: "2015 - 2018",
     field: "Electronics and Telecommunication Engineering",
+  },
+  {
+    institution: "Careerera",
+    degree: "Data Science Course",
+    duration: "2023 - 2024",
+    field: "Data Science",
   },
 ];
 
@@ -85,6 +80,50 @@ export const CERTIFICATIONS = [
 ];
 
 export const PROJECTS = [
+  {
+    name: "Mock Test Application",
+    details: [
+      "Developed an online mock test platform using React for frontend and Appwrite for backend services.",
+      "Created features for dynamic user interactions, such as test-taking, score tracking, and progress visualization.",
+      "Implemented role-based authentication and user management using Appwrite functions.",
+      "Designed responsive and modern UI components using Tailwind CSS for an enhanced user experience.",
+      "Handled database management for test papers and user data using Appwrite database services.",
+    ],
+    links: {
+      website: "https://itimocktest.vercel.app",
+      github: "https://github.com/vickysawant19/iti-mock-test",
+    },
+    technologies: [
+      "React",
+      "Appwrite",
+      "Tailwind CSS",
+      "JavaScript",
+      "Frontend Development",
+      "Backend Development",
+    ],
+  },
+  {
+    name: "Real-time Chat Application",
+    details: [
+      "Built a real-time chat application using Socket.io for seamless communication between users.",
+
+      "Designed a modern and responsive UI using React and Tailwind CSS for an intuitive chat experience.",
+      "Handled backend logic with Node.js, managing real-time events and user connections efficiently.",
+      "Included features like typing indicators, read receipts, and message timestamps for an enhanced user experience.",
+    ],
+    links: {
+      website: "https://chatapp-socketio-production.up.railway.app/",
+      github: "https://github.com/vickysawant19/chatApp-socket.io",
+    },
+    technologies: [
+      "Socket.io",
+      "React",
+      "Node.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Real-time Communication",
+    ],
+  },
   {
     name: "Predictive Model for E-commerce Delivery",
     details: [
@@ -130,8 +169,9 @@ export const PROJECTS = [
       "Implemented user authentication and authorization with different access levels (admin, manager, employee).",
     ],
     links: {
-      // website:"",
-      github: "https://github.com/vickysawant19/FullStack-MERN-Project-TechNotes",
+      website: "https://dandd-technotes.onrender.com",
+      github:
+        "https://github.com/vickysawant19/FullStack-MERN-Project-TechNotes",
     },
     technologies: [
       "React",

@@ -47,30 +47,20 @@ const Projects = () => {
                   </div>
                 ))}
               </div>
-              {project.links && (
-                <div className="flex">
-                  <div className="bg-neutral-800 py-1 px-2 rounded flex items-center ">
-                    <a
-                      className="text-sm"
-                      href={project.links.website}
-                      target="_blank"
+              <div className="flex">
+                {project.links &&
+                  Object.entries(project.links).map(([key, value]) => (
+                    <div
+                      key={value.slice(1, 10)}
+                      className="bg-neutral-800 py-1 px-2 rounded flex items-center mr-2 "
                     >
-                      Website
-                    </a>
-                    <MdOutlineArrowOutward className="ml-2 text-xl text-purple-600" />
-                  </div>
-                  <div className="bg-neutral-800 ml-3 py-1 px-2 rounded flex items-center ">
-                    <a
-                      className="text-sm"
-                      href={project.links.website}
-                      target="_blank"
-                    >
-                      Github
-                    </a>
-                    <MdOutlineArrowOutward className="ml-2 text-xl text-purple-600" />
-                  </div>
-                </div>
-              )}
+                      <a className="text-sm" href={value || ""} target="_blank">
+                        {key.slice(0, 1).toUpperCase() + key.slice(1)}
+                      </a>
+                      <MdOutlineArrowOutward className="ml-2 text-xl text-purple-600" />
+                    </div>
+                  ))}
+              </div>
             </motion.div>
           </motion.div>
         ))}
