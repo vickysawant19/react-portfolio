@@ -8,15 +8,16 @@ export const PROFILE = {
   Proficient in full-stack development using React.js, Node.js, Express.js, MongoDB, JavaScript, and Next.js. Successfully built scalable web applications, including a mock test platform and a real-time chat app. Passionate about leveraging modern web technologies to create impactful, user-focused solutions.`,
 };
 
-export const ABOUT = `I am a dedicated Electronics Engineer with a strong background in teaching. With 6 years of experience in electronics and programming, I've transitioned to web development and completed a Data Science course, expanding my expertise in Python, SQL, and Machine Learning.
-Proficient in front-end and back-end development using React.js, Node.js, Express.js, and MongoDB, I have successfully built web applications like a mock test platform and a real-time chat app. One of my notable achievements is completing a Capstone Project in ML for E-commerce, demonstrating the ability to predict product delivery times and optimize customer service using data analysis.
-My diverse skill set, combined with effective communication and leadership abilities, positions me to deliver innovative solutions and drive technological growth within any organization.`;
+export const ABOUT = `I am a dedicated Electronics Engineer with 6 years of experience in electronics and programming, now transitioning into web development. I specialize in full stack development using technologies like React.js, Node.js, Express.js, and MongoDB. I’ve successfully built dynamic web applications, including an online mock test platform and a bookstore app.
+\nRecently, I completed a one-month full stack internship with Synexoo, where I developed a Learning Management System (LMS) from scratch. This hands-on experience has further solidified my skills in building scalable web applications.
+\nIn addition to web development, I’ve completed a Data Science course, gaining proficiency in Python, SQL, and Machine Learning. My Capstone Project in ML for E-commerce focused on predicting product delivery times and optimizing customer service through data analysis.
+\nWith a strong foundation in both hardware and software, I’m passionate about delivering innovative solutions and contributing to web development projects that drive business success.`
 
 export const EXPERIENCE = [
   {
     company: "Government ITI Dodamarg",
     role: "Electronics Instructor",
-    duration: "2018 - Present",
+    duration: "2018 - 2024",
     responsibilities: [
       "Taught electronic engineering and programming concepts to students.",
       "Mentored students in embedded programming projects and problem-solving.",
@@ -31,7 +32,25 @@ export const EXPERIENCE = [
       "Programming",
     ],
   },
+  {
+    company: "Synexoo",
+    role: "Full Stack Intern",
+    duration: "1 Month",
+    responsibilities: [
+      "Developed a full stack website for a Learning Management System (LMS).",
+      "Collaborated with the Synexoo team to build and implement features.",
+      "Enhanced backend functionality and integrated dynamic frontend components.",
+      "Managed authentication and user roles within the LMS system.",
+    ],
+    technology: [
+      "MERN Stack",
+      "Firebase Authentication",
+      "Tailwind CSS",
+      "MongoDB Aggregation",
+    ],
+  },
 ];
+
 
 export const EDUCATION = [
   {
@@ -49,11 +68,10 @@ export const EDUCATION = [
 ];
 
 export const SKILLS = [
-  "Programming Languages: Python, SQL, React.js, PHP, Embedded C, JavaScript, Next.js",
+  "Programming Languages: HTML,CSS,JavaScript, React.js, PHP, Next.js,Python, SQL, Embedded C",
+  "Full-Stack Development: React, Node.js, Express.js, MongoDB",
   "Data Science: Machine Learning, Data Analysis, Data Visualization",
   "Microcontrollers and microprocessors",
-  "Real-time operating systems",
-  "Device drivers",
   "Embedded software design patterns",
   "Hardware-software co-design",
   "Debugging and testing embedded systems",
@@ -63,8 +81,6 @@ export const SKILLS = [
   "Adaptability: Quick learner and adaptable to new technologies and challenges",
   "Time Management: Efficiently balancing coursework and work experience",
   "Customer Service: Proven ability to resolve customer queries and concerns",
-
-  "Full-Stack Development: React, Node.js, Express.js, MongoDB",
   "User Authentication and Authorization",
   "Appwrite Backend-as-a-Service Platform",
 ];
@@ -80,6 +96,31 @@ export const CERTIFICATIONS = [
 ];
 
 export const PROJECTS = [
+  {
+    name: "Bookstore Application",
+    details: [
+      "Developed a full stack bookstore web application using the MERN stack for seamless frontend and backend integration.",
+      "Implemented features for adding, deleting, and managing books through an admin dashboard.",
+      "Designed a modern, responsive UI using Tailwind CSS for an enhanced user experience.",
+      "Utilized MongoDB Aggregation to calculate total sales and manage inventory efficiently.",
+      "Integrated dynamic popups for confirmation using SweetAlert (Swal) and managed authentication with Firebase.",
+      "Deployed both frontend and backend on Vercel for optimized performance and ease of access.",
+    ],
+    links: {
+      website: "https://book-store-mern-stack-project.vercel.app/",
+      github: "https://github.com/vickysawant19/book-store-mern-stack-project",
+    },
+    technologies: [
+      "MERN Stack",
+      "MongoDB Aggregation",
+      "Tailwind CSS",
+      "SweetAlert (Swal)",
+      "Firebase Authentication",
+      "Frontend Development",
+      "Backend Development",
+    ],
+  }
+,  
   {
     name: "Mock Test Application",
     details: [

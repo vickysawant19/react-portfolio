@@ -37,8 +37,8 @@ const Projects = () => {
               <h4 className="mb-4 text-sm text-neutral-400 ">
                 {project.details}
               </h4>
-              <div className="relative flex mb-2 overflow-hidden">
-                <div className="flex overflow-x-auto scrollbar-hidden">
+         
+                <div className="flex flex-wrap items-center mb-3 ">
                   {project.technologies.map((tech, index) => (
                     <div
                       key={index}
@@ -48,7 +48,7 @@ const Projects = () => {
                     </div>
                   ))}
                 </div>
-              </div>
+              
               <div className="flex">
                 {project.links &&
                   Object.entries(project.links).map(([key, value]) => (

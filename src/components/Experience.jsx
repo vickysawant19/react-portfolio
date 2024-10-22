@@ -41,7 +41,7 @@ const Experience = () => {
               <p className="mb-4 text-neutral-400">
                 {experience.responsibilities}
               </p>
-              <div className="flex">
+              <div className="flex flex-wrap">
                 {experience.technology.map((tech, index) => (
                   <div
                     key={index}
