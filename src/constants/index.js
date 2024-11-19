@@ -1,18 +1,29 @@
 export const PROFILE = {
   name: "Vitthal Sawant",
-  title: ["Electronics Engineer", "Instructor", "Web Developer"],
+  title: ["Full Stack Web Developer", "Electronics Engineer", "Instructor"],
   location: "Banda, Maharashtra, India 416511",
   email: "vitthal.sawant19@gmail.com",
   phone: "+91 9421265218",
-  summary: `Electronics Enginner with a strong background in teaching electronics, embedded programming and web Technolgies. Recently completed a Data Science course, gaining expertise in Python, SQL, and Machine Learning. 
-  Proficient in full-stack development using React.js, Node.js, Express.js, MongoDB, JavaScript, and Next.js. Successfully built scalable web applications, including a mock test platform and a real-time chat app. Passionate about leveraging modern web technologies to create impactful, user-focused solutions.`,
+  summary: `Full Stack Web Developer with expertise in React.js, Node.js, Express.js, MongoDB, and JavaScript. During a recent internship at Synexoo, developed a Learning Management System (LMS) using the MERN stack, Firebase, and Tailwind CSS, ensuring secure and efficient user experiences.  
+  Bringing 6+ years of experience teaching electronics and web development, with a strong foundation in embedded systems, programming, and circuit design. Additionally, completed a Data Science course, gaining proficiency in Python, SQL, and Machine Learning, further enhancing problem-solving and analytical skills. Dedicated to creating impactful, user-focused solutions and leveraging modern technologies.`,
 };
 
-export const ABOUT = `I am a dedicated Electronics Engineer with a strong background in teaching. With 6 years of experience in electronics and programming, I've transitioned to web development and completed a Data Science course, expanding my expertise in Python, SQL, and Machine Learning.
+export const ABOUT = `I am a dedicated Electronics Engineer with a strong background in teaching. With 6 years of experience in electronics,IOT and programming, I've transitioned to web development and completed a Data Science course, expanding my expertise in Python, SQL, and Machine Learning.
 Proficient in front-end and back-end development using React.js, Node.js, Express.js, and MongoDB, I have successfully built web applications like a mock test platform and a real-time chat app. One of my notable achievements is completing a Capstone Project in ML for E-commerce, demonstrating the ability to predict product delivery times and optimize customer service using data analysis.
 My diverse skill set, combined with effective communication and leadership abilities, positions me to deliver innovative solutions and drive technological growth within any organization.`;
 
 export const EXPERIENCE = [
+  {
+    company: "Synexoo",
+    role: "Full Stack Software Developer (Intern)",
+    duration: "July 2024 - August 2024",
+    responsibilities: [
+      "Designed and developed a complete Learning Management System (LMS) with dynamic frontend components and robust backend functionality, improving user experience and performance.",
+      "Implemented Firebase Authentication for secure user login and role management, reducing unauthorized access by 100%.",
+      "Utilized MERN stack with Firebase for real-time operations, deployed on Vercel with 99% uptime.",
+    ],
+    technology: ["MERN Stack", "Firebase", "Tailwind CSS", "Vercel"],
+  },
   {
     company: "Government ITI Dodamarg",
     role: "Electronics Instructor",
@@ -80,6 +91,33 @@ export const CERTIFICATIONS = [
 ];
 
 export const PROJECTS = [
+  {
+    name: "AI Text-to-Image Generator",
+    details: [
+      "Developed a web application to generate AI-based images from text prompts using Vite and React for the frontend.",
+      "Designed an intuitive and responsive UI using MUI and styled-components.",
+      "Integrated the Pollinations API to generate high-quality images based on user inputs.",
+      "Implemented image storage and metadata management using MongoDB and Cloudinary.",
+      "Built a robust server with Express, following the MVC architecture for efficient backend operations.",
+      "Enabled functionality for users to download generated images using FileSaver.",
+    ],
+    links: {
+      website: "https://ai-image-generator-client-omega.vercel.app/",
+      github: "https://github.com/vickysawant19/ai-image-generator",
+    },
+    technologies: [
+      "React",
+      "Vite",
+      "MUI",
+      "styled-components",
+      "Pollinations API",
+      "MongoDB",
+      "Cloudinary",
+      "Express",
+      "JavaScript",
+      "Full-Stack Development",
+    ],
+  },
   {
     name: "Mock Test Application",
     details: [
