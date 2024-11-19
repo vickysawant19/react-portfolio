@@ -42,23 +42,6 @@ export const EXPERIENCE = [
       "Programming",
     ],
   },
-  {
-    company: "Synexoo",
-    role: "Full Stack Intern",
-    duration: "1 Month",
-    responsibilities: [
-      "Developed a full stack website for a Learning Management System (LMS).",
-      "Collaborated with the Synexoo team to build and implement features.",
-      "Enhanced backend functionality and integrated dynamic frontend components.",
-      "Managed authentication and user roles within the LMS system.",
-    ],
-    technology: [
-      "MERN Stack",
-      "Firebase Authentication",
-      "Tailwind CSS",
-      "MongoDB Aggregation",
-    ],
-  },
 ];
 
 export const EDUCATION = [
@@ -130,6 +113,30 @@ export const PROJECTS = [
       "Express",
       "JavaScript",
       "Full-Stack Development",
+    ],
+  },
+  {
+    name: "Bookstore Application",
+    details: [
+      "Developed a full stack bookstore web application using the MERN stack for seamless frontend and backend integration.",
+      "Implemented features for adding, deleting, and managing books through an admin dashboard.",
+      "Designed a modern, responsive UI using Tailwind CSS for an enhanced user experience.",
+      "Utilized MongoDB Aggregation to calculate total sales and manage inventory efficiently.",
+      "Integrated dynamic popups for confirmation using SweetAlert (Swal) and managed authentication with Firebase.",
+      "Deployed both frontend and backend on Vercel for optimized performance and ease of access.",
+    ],
+    links: {
+      website: "https://book-store-mern-stack-project.vercel.app/",
+      github: "https://github.com/vickysawant19/book-store-mern-stack-project",
+    },
+    technologies: [
+      "MERN Stack",
+      "MongoDB Aggregation",
+      "Tailwind CSS",
+      "SweetAlert (Swal)",
+      "Firebase Authentication",
+      "Frontend Development",
+      "Backend Development",
     ],
   },
   {
