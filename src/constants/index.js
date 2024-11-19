@@ -27,7 +27,7 @@ export const EXPERIENCE = [
   {
     company: "Government ITI Dodamarg",
     role: "Electronics Instructor",
-    duration: "2018 - Present",
+    duration: "2018 - 2024",
     responsibilities: [
       "Taught electronic engineering and programming concepts to students.",
       "Mentored students in embedded programming projects and problem-solving.",
@@ -40,6 +40,23 @@ export const EXPERIENCE = [
       "Circuit Design",
       "Embedded Systems",
       "Programming",
+    ],
+  },
+  {
+    company: "Synexoo",
+    role: "Full Stack Intern",
+    duration: "1 Month",
+    responsibilities: [
+      "Developed a full stack website for a Learning Management System (LMS).",
+      "Collaborated with the Synexoo team to build and implement features.",
+      "Enhanced backend functionality and integrated dynamic frontend components.",
+      "Managed authentication and user roles within the LMS system.",
+    ],
+    technology: [
+      "MERN Stack",
+      "Firebase Authentication",
+      "Tailwind CSS",
+      "MongoDB Aggregation",
     ],
   },
 ];
@@ -60,11 +77,10 @@ export const EDUCATION = [
 ];
 
 export const SKILLS = [
-  "Programming Languages: Python, SQL, React.js, PHP, Embedded C, JavaScript, Next.js",
+  "Programming Languages: HTML,CSS,JavaScript, React.js, PHP, Next.js,Python, SQL, Embedded C",
+  "Full-Stack Development: React, Node.js, Express.js, MongoDB",
   "Data Science: Machine Learning, Data Analysis, Data Visualization",
   "Microcontrollers and microprocessors",
-  "Real-time operating systems",
-  "Device drivers",
   "Embedded software design patterns",
   "Hardware-software co-design",
   "Debugging and testing embedded systems",
@@ -74,8 +90,6 @@ export const SKILLS = [
   "Adaptability: Quick learner and adaptable to new technologies and challenges",
   "Time Management: Efficiently balancing coursework and work experience",
   "Customer Service: Proven ability to resolve customer queries and concerns",
-
-  "Full-Stack Development: React, Node.js, Express.js, MongoDB",
   "User Authentication and Authorization",
   "Appwrite Backend-as-a-Service Platform",
 ];
