@@ -37,30 +37,30 @@ const Projects = () => {
               <h4 className="mb-4 text-sm text-neutral-400 ">
                 {project.details}
               </h4>
-         
-                <div className="flex flex-wrap items-center mb-3 ">
-                  {project.technologies.map((tech, index) => (
-                    <div
-                      key={index}
-                      className="mb-2 flex mr-2 rounded text-purple-400 text-sm bg-neutral-800 py-1 px-2"
-                    >
-                      {tech}
-                    </div>
-                  ))}
-                </div>
-              
+
+              <div className="flex flex-wrap items-center mb-3 ">
+                {project.technologies.map((tech, index) => (
+                  <div
+                    key={index}
+                    className="mb-2 flex mr-2 rounded text-purple-400 text-sm bg-neutral-800 py-1 px-2"
+                  >
+                    {tech}
+                  </div>
+                ))}
+              </div>
+
               <div className="flex">
                 {project.links &&
                   Object.entries(project.links).map(([key, value]) => (
-                    <div
+                    <a
                       key={value.slice(1, 10)}
-                      className="bg-neutral-800 py-1 px-2 rounded flex items-center mr-2 "
+                      className="text-sm bg-neutral-800 py-1 px-2 rounded flex items-center mr-2 hover:text-white hover:scale-105 hover:bg-neutral-700 transition-all duration-300 "
+                      href={value || ""}
+                      target="_blank"
                     >
-                      <a className="text-sm" href={value || ""} target="_blank">
-                        {key.slice(0, 1).toUpperCase() + key.slice(1)}
-                      </a>
-                      <MdOutlineArrowOutward className="ml-2 text-xl text-purple-600" />
-                    </div>
+                      {key.slice(0, 1).toUpperCase() + key.slice(1)}
+                      <MdOutlineArrowOutward className="ml-2 text-xl text-purple-600 " />
+                    </a>
                   ))}
               </div>
             </motion.div>
