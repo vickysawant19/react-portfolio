@@ -89,7 +89,7 @@ const Hero = () => {
               {/* Resume Download Button */}
               <button 
                 onClick={handleResumeDownload}
-                className="group flex items-center gap-2 px-8 py-3 bg-neutral-900 text-neutral-300 font-medium rounded-lg border border-neutral-800 hover:border-purple-500 transition-all duration-300 hover:scale-105"
+                className="group flex items-center gap-2 px-8 py-3 justify-center bg-neutral-900 text-neutral-300 font-medium rounded-lg border border-neutral-800 hover:border-purple-500 transition-all duration-300 hover:scale-105"
               >
                 <span>Download CV</span>
                 <svg className="w-4 h-4 group-hover:translate-y-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
